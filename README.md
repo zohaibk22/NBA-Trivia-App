@@ -16,8 +16,10 @@ Game-Selection.js
 URL: https://wireframe.cc/OseLdy
 
 Game.js
+URL:
 
 Results.js
+URL: 
 
 
 ### MVP/
@@ -27,7 +29,7 @@ Results.js
 - Have atleast one functioning category for the game
 - Be able to compare two objects of data from the sourced API
 - Have a home page, game Page, and exit page (Utilizing React Router)
--
+- Implement Flex Box for design
 
 
 #### MVP API
