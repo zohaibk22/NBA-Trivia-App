@@ -63,6 +63,8 @@ Sample Query Results:
 
 ```
 
+![API Snippet](https://github.com/zohaibk22/NBA-Trivia/blob/master/Screen%20Shot%202020-06-29%20at%2010.36.38%20AM.png)
+
 <br>
 
 #### MVP Libraries & Dependencies
