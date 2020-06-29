@@ -55,15 +55,51 @@ Sample Query Results:
 
 #### MVP Libraries & Dependencies
 
-> Use this section to list the key supporting libraries and their role in the project.
 
 |   Library    | Description                                |
 | :----------: | :----------------------------------------- |
-|    React     | _Lorem ipsum dolor sit amet, consectetur._ |
-| React Router | _Lorem ipsum dolor sit amet, consectetur._ |
-|  | _Lorem ipsum dolor sit amet, consectetur._ |
+|    React     | Utilzing React |
+| React Router | Utilizing Route, Link, withRouter features |
+| Axios | Utilizing API Calls  |
 
 <br>
+
+#### MVP Components
+
+```
+src
+|__ assets/
+      |__ data-tests
+      |__ fonts
+      |__ images
+|__ components/
+      |__ App.jsx
+      |__ Header.jsx
+      |__ Home.jsx
+      |__ Game-Selection.jsx
+      |__ Game.jsx
+      |__ Exit.jsx
+      |__ Footer.jsx
+```
+
+<br>
+
+#### MVP Breakdown
+
+> Use this section to go into further depth regarding every component, including breaking down the components as stateless or stateful, and considering the passing of data between those components.
+
+|  Component   |    Type    | state | props | hooks | Description                                |
+| :----------: | :--------: | :---: | :---: | :---: | :----------------------------------------- |
+|    App.js    |   class    |   y   |   n   |   n   | Implementation file. Will implement all respective components of applications |
+|    Header.js    | functional |   n   |   n   |   n   |Header/Nav component that will render on all pages|
+|    Home.js     | functional |   n   |   n   |   n   | Home page to enter into game |
+|    Game-Selection.js     | functional |   n   |   n   |   n   | Game-Selection page to show all different options of trivia games |
+|    Game.js    | class |   y   |   y   |   n  | the Game page|
+|    Result-page.js    |   functional |   y   |   n   |   n  | The result page will display the player's score after the game has concluded |
+|    Footer    | functional |   n   |   n   |   n   | A footer that will render on all pages |
+
+<br>
+
 
 
 #### PostMVP 
