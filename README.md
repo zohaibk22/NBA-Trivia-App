@@ -8,7 +8,17 @@ The "NBA Trivia" application will challenge your knowledge of player stats withi
 
 
 ## Wireframes
-WireFrame: https://wireframe.cc/pbKTLi
+
+Home.js
+URL:https://wireframe.cc/00ljIJ
+
+Game-Selection.js
+URL: https://wireframe.cc/OseLdy
+
+Game.js
+
+Results.js
+
 
 ### MVP/
 
@@ -100,49 +110,47 @@ src
 
 <br>
 
+#### MVP Timeframes
+
+> Use this section to estimate the time necessary to build out each of the components you've described above. 
+>
+> Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evalute possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe.
+
+| Task             | Priority | Estimated Time | Time Invested | Actual Time |
+| ---------------- | :------: | :------------: | :-----------: | :---------: |
+| Header.js |    L     |     1 hrs      |      hrs     |     hrs    |
+| Home.js    |    H     |     2 hrs      |      hrs     |     TBD     |
+| Game-Selection.js     |    M     |     2 hrs      |      hrs     |     TBD     |
+| Game.js     |    H     |     4 hrs      |      hrs     |     TBD     |
+| Results     |    H     |     3 hrs      |      hrs     |     TBD     |
+| Footer     |    L     |     1 hrs      |      hrs     |     TBD     |
+| TOTAL            |          |     13 hrs      |      hrs     |     TBD     |
+
+<br>
+
+
 
 
 #### PostMVP 
 
--  Add button functionality to display some common symptoms and remedies of COVID-19
-- Incorperate dynamic Flag functionality. Incorperate update functionality that continuously checks for countries with the highest Covid-19 cases (Requires a second APU)
-- Media Query for mobile app.
-
-## Project Schedule
-
-|  Day | Deliverable | Status
-|---|---| ---|
-|June 8| Project Prompt/Project Proposal | Complete
-|June 9| Front-End Core Design (HTML/CSS) | Complete
-|June 10| Code in Event Listener for Symptoms/Remedies. Implement Map| Complete
-|June 11| Code Event Listener for Flags to display COVID-19 stastics from API| Complete
-|June 12| Make Final touches. Complete MVP. Work on POSTMVP | Complete
-|June 15| Present | Incomplete
-
-## Priority Matrix
-![Priority Matrix](https://git.generalassemb.ly/zkhan14/About-Covid19-App/blob/master/Priority%20matrix.jpg)
-
-## Timeframes
-
-| Component | Priority | Estimated Time | Time Invested | Actual Time |
-| --- | :---: |  :---: | :---: | :---: |
-| Home Page | H | 1.5hrs| 0.5 hrs  | 0.5 hrs |
-| CSS Styles| H | 3hrs| 4 hrs | 4 hrs  |
-| Implement Flags | H | 4hrs| 2.5 hrs | 2.5 hrs|
-| Flag Click Functionality| H | 4hrs| 3 hrs | 3 hrs|
-| Implement API to read COVID-19 Statistics| H | 4hrs| 3 hrs| 3 hrs |
-| Toggle functionality between flag and COVID-19 statistics | H | 4hrs | 3 hrs | 3 hrs|
-| COVID-19 Symptoms and Remedies buttton | M | 2hrs | 3 hrs | 3 hrs|
-| Media Query for Mobile App Design | M | 2hrs | 2 hrs| 2 hrs|
-| Total | H | 24.5hrs| 21 hrs | 21 hrs |
-|
-
-## Code Snippet
-```
-
-l;  
-    
- ```
+- Render multiple game modes 
+- Multiplayer functionality
+- Ability to play game multiple times
 
 
-## Change Log
+
+<br>
+
+***
+
+## Project Delivery
+
+> The Project Delivery section should be completed as your work on your project.
+
+### Code Showcase
+
+> Use this section to include a brief code snippet of functionality that you are proud of and a brief description.
+
+### Code Issues & Resolutions
+
+> Use this section to list of all major issues encountered and their resolution, if you'd like.
