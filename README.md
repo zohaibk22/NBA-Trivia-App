@@ -1,157 +1,68 @@
-# Project Overview
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## NBA Trivia
+## Available Scripts
 
-## Project Description
+In the project directory, you can run:
 
-The "NBA Trivia" application will challenge your knowledge of player stats within the NBA. This will be a trivia game that will allow you to pick between multiple categories of stats within the NBA. After selecting a category, you will then b3 shown two cards of random players. It will then be up to you to select who you believe is the better player according to that specific category of stats. There will be ten round in total. At the end of the game, you will be given a percentage of the questions you answered correctly to portray your knowledge of NBA players with respect to the selected stat line.
+### `npm start`
 
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Wireframes
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-Home.js
-URL:https://wireframe.cc/00ljIJ
+### `npm test`
 
-Game-Selection.js
-URL: https://wireframe.cc/OseLdy
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Game.js
-URL:https://wireframe.cc/DXL1j8
+### `npm run build`
 
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### MVP/
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-#### MVP Gaols
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- Have atleast one functioning category for the game
-- Be able to compare two objects of data from the sourced API
-- Have a home page, game Page, and exit page (Utilizing React Router)
-- Implement Flex Box for design
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-#### MVP API
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-|    API     | Quality Docs? | Documentation | Sample Query                            |
-| :--------: | :-----------: | :------------ | :-------------------------------------- |
-| BallDontLie API |      Yes      | https://ball-dont-lie.herokuapp.com/#introduction | https://www.balldontlie.io/api/v1/games/<ID> |
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-Sample Query Results:
+## Learn More
 
-```
-{
-    "id": 140,
-    "first_name": "Kevin",
-    "height_feet": 6,
-    "height_inches": 9,
-    "last_name": "Durant",
-    "position": "F",
-    "team": {
-        "id": 3,
-        "abbreviation": "BKN",
-        "city": "Brooklyn",
-        "conference": "East",
-        "division": "Atlantic",
-        "full_name": "Brooklyn Nets",
-        "name": "Nets"
-    },
-    "weight_pounds": 240
-}
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-```
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-![API Snippet](https://github.com/zohaibk22/NBA-Trivia/blob/master/Screen%20Shot%202020-06-29%20at%2010.36.38%20AM.png)
+### Code Splitting
 
-<br>
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-#### MVP Libraries & Dependencies
+### Analyzing the Bundle Size
 
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-|   Library    | Description                                |
-| :----------: | :----------------------------------------- |
-|    React     | Utilzing React |
-| React Router | Utilizing Route, Link, withRouter features |
-| Axios | Utilizing API Calls  |
+### Making a Progressive Web App
 
-<br>
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-#### MVP Components
+### Advanced Configuration
 
-```
-src
-|__ assets/
-      |__ data-tests
-      |__ fonts
-      |__ images
-|__ components/
-      |__ App.jsx
-      |__ Header.jsx
-      |__ Home.jsx
-      |__ Game-Selection.jsx
-      |__ Game.jsx
-      |__ Exit.jsx
-      |__ Footer.jsx
-```
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-<br>
+### Deployment
 
-#### MVP Breakdown
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-> Use this section to go into further depth regarding every component, including breaking down the components as stateless or stateful, and considering the passing of data between those components.
+### `npm run build` fails to minify
 
-|  Component   |    Type    | state | props | hooks | Description                                |
-| :----------: | :--------: | :---: | :---: | :---: | :----------------------------------------- |
-|    App.js    |   class    |   y   |   n   |   n   | Implementation file. Will implement all respective components of applications |
-|    Header.js    | functional |   n   |   n   |   n   |Header/Nav component that will render on all pages|
-|    Home.js     | functional |   n   |   n   |   n   | Home page to enter into game |
-|    Game-Selection.js     | functional |   n   |   n   |   n   | Game-Selection page to show all different options of trivia games |
-|    Game.js    | class |   y   |   y   |   n  | the Game page|
-|    Result-page.js    |   functional |   y   |   n   |   n  | The result page will display the player's score after the game has concluded |
-|    Footer    | functional |   n   |   n   |   n   | A footer that will render on all pages |
-
-<br>
-
-#### MVP Timeframes
-
-> Use this section to estimate the time necessary to build out each of the components you've described above. 
->
-> Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evalute possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe.
-
-| Task             | Priority | Estimated Time | Time Invested | Actual Time |
-| ---------------- | :------: | :------------: | :-----------: | :---------: |
-| Header.js |    L     |     1 hrs      |      hrs     |     hrs    |
-| Home.js    |    H     |     2 hrs      |      hrs     |     TBD     |
-| Game-Selection.js     |    M     |     2 hrs      |      hrs     |     TBD     |
-| Game.js     |    H     |     4 hrs      |      hrs     |     TBD     |
-| Results     |    H     |     3 hrs      |      hrs     |     TBD     |
-| Footer     |    L     |     1 hrs      |      hrs     |     TBD     |
-| TOTAL            |          |     13 hrs      |      hrs     |     TBD     |
-
-<br>
-
-
-
-
-#### PostMVP 
-
-- Render multiple game modes 
-- Multiplayer functionality
-- Ability to play game multiple times
-
-
-
-<br>
-
-***
-
-## Project Delivery
-
-> The Project Delivery section should be completed as your work on your project.
-
-### Code Showcase
-
-> Use this section to include a brief code snippet of functionality that you are proud of and a brief description.
-
-### Code Issues & Resolutions
-
-> Use this section to list of all major issues encountered and their resolution, if you'd like.
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
